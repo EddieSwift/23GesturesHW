@@ -13,6 +13,7 @@
 		2C91AD2A21B6F267005215AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C91AD2921B6F267005215AB /* Assets.xcassets */; };
 		2C91AD2D21B6F267005215AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C91AD2B21B6F267005215AB /* LaunchScreen.storyboard */; };
 		2C91AD3021B6F267005215AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C91AD2F21B6F267005215AB /* main.m */; };
+		2CB42A9421B9CF8F00CB30D5 /* ice_cream_animated.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2CB42A9321B9CF8F00CB30D5 /* ice_cream_animated.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2C91AD2C21B6F267005215AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C91AD2E21B6F267005215AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C91AD2F21B6F267005215AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CB42A9321B9CF8F00CB30D5 /* ice_cream_animated.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ice_cream_animated.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +65,21 @@
 				2C91AD2321B6F266005215AB /* ViewController.h */,
 				2C91AD2421B6F266005215AB /* ViewController.m */,
 				2C91AD2621B6F266005215AB /* Main.storyboard */,
+				2CB42A9221B9CF8F00CB30D5 /* ImageFiles */,
 				2C91AD2921B6F267005215AB /* Assets.xcassets */,
 				2C91AD2B21B6F267005215AB /* LaunchScreen.storyboard */,
 				2C91AD2E21B6F267005215AB /* Info.plist */,
 				2C91AD2F21B6F267005215AB /* main.m */,
 			);
 			path = 23GesturesHW;
+			sourceTree = "<group>";
+		};
+		2CB42A9221B9CF8F00CB30D5 /* ImageFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2CB42A9321B9CF8F00CB30D5 /* ice_cream_animated.gif */,
+			);
+			path = ImageFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB42A9421B9CF8F00CB30D5 /* ice_cream_animated.gif in Resources */,
 				2C91AD2D21B6F267005215AB /* LaunchScreen.storyboard in Resources */,
 				2C91AD2A21B6F267005215AB /* Assets.xcassets in Resources */,
 				2C91AD2821B6F266005215AB /* Main.storyboard in Resources */,
